@@ -104,11 +104,11 @@ public class Aro {
     }
     /**
      * Traslada el centro del circulo
-     * @param trasladarx valor a sumar a la coordenada X
-     * @param trasladary valor a sumar a la coordenada Y
+     * @param trasladarX valor a sumar a la coordenada X
+     * @param trasladarY valor a sumar a la coordenada Y
      */
-    public void trasladarCentro(int trasladarx, int trasladary){
-        coordenadaX=coordenadaX + trasladarx;
-        coordenadaY=coordenadaY + trasladary;
+    public void trasladarCentro(int trasladarX, int trasladarY){
+        coordenadaX=coordenadaX + trasladarX;
+        coordenadaY=coordenadaY + trasladarY;
     }
 }
